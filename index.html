@@ -9,10 +9,58 @@
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+          <style>
+            .poster{
+    width: 100%px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+.h{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+.para{
+    font-size: 24px;
+    padding: 30px;
+}
+
+.p{
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.p1{
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+}
+
+          </style>
     </head>
     <body>
-        <div>
+        <div style="background-image: linear-gradient(to right, #2196f3, #ffffff);">
+        <div id="sectionhome">
             <h1 class="heading text-center">PINNACLE</h1>
+            <div class=" d-flex flex-column">
+               <img src="poster.jpg" class="poster"/>
+               <img src="poster-1.jpg" class="poster"/>
+            </div>
+           </div>
+        
+            
+            
             <p class="para">
         Join us at the pinnacle of technical innovation! Engage with workshops, seminars, and thrilling competitions. Win exciting prizes and expand your horizons. Don't miss out on this unforgettable experience! See you there! 
         Date:March 22 and 23
@@ -21,34 +69,42 @@
 
         <h2 class="heading">For Registration:</h2>
 
-        <div class="block">
-        <h3>Technical Events:</h3>
+        <div class="block shadow-5">
+        <h3 class="h">Technical Events:</h3>
         
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeI1-Qlg7bNvNrW1r4d-zGwDRvCl1mB40KphFKYiMOmckLy5A/viewform?usp=sf_link" target="_blank"><b>1.CircuitDebugging</b></a></p>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeMfDnTf7yD-_Id4yP5YYBvapjx5Q_kLQZMIH3cMewzf6QhzQ/viewform?usp=sf_link" target="_blank"><b>2.Paper presentations</b></a></p>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTr8sUK3tEXihjvhfWJD38pLZoC9Wgb8wP5-mgNAK3lp8KrA/viewform?usp=sf_link" target="_blank"><b>3.Tech Quiz</b></a></p>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdUEl_wh47PFMaaiI5Xjmv89J_AnezZU4Y2nwDCo29wX5pdZg/viewform?usp=sf_link" target="_blank"><b>4.Coding Contest</b></a></p>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdUvjH-zv3-Ack4RxbDZJHNHolakjHkGVJnI1dWurBw5079SQ/viewform?usp=sf_link" target="_blank"><b>5.PCB Design workshop</b></a></p>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScKiPaV63XxzH_JQpUz7qo4RaZqC5QvN7C0waNGErrjBe536w/viewform?usp=sf_link" target="_blank"><b>6.Machine Learning with one API-through Intel Developer Cloud workshop</b> </a></p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeI1-Qlg7bNvNrW1r4d-zGwDRvCl1mB40KphFKYiMOmckLy5A/viewform?usp=sf_link" target="_blank"><p class="p"><b>1.CircuitDebugging</b></p></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMfDnTf7yD-_Id4yP5YYBvapjx5Q_kLQZMIH3cMewzf6QhzQ/viewform?usp=sf_link" target="_blank"><p class="p"><b>2.Paper presentations</b></p></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTr8sUK3tEXihjvhfWJD38pLZoC9Wgb8wP5-mgNAK3lp8KrA/viewform?usp=sf_link" target="_blank"><p class="p"><b>3.Tech Quiz</b></p></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUEl_wh47PFMaaiI5Xjmv89J_AnezZU4Y2nwDCo29wX5pdZg/viewform?usp=sf_link" target="_blank"><p class="p"><b>4.Coding Contest</b></p></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUvjH-zv3-Ack4RxbDZJHNHolakjHkGVJnI1dWurBw5079SQ/viewform?usp=sf_link" target="_blank"><p class="p"><b>5.PCB Design workshop</b></p></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScKiPaV63XxzH_JQpUz7qo4RaZqC5QvN7C0waNGErrjBe536w/viewform?usp=sf_link" target="_blank"><p class="p"><b>6.Machine Learning with one API-through Intel Developer Cloud workshop</b></p></a>
     </div>
         
-        <div class="block">
-            <h3 class="heading">Non-Technical Events:</h3>
+        <div class="block shodow-5">
+            <h3 class="h">Non-Technical Events:</h3>
             
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3VULsWCljtreIjcy3S5y6IJw3t3FCMVbkEYa9aIbXjjrHXQ/viewform?usp=sf_link" target="_blank"><b>1.Connections</b></a></p>
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSebZ88uIAtkeLnCBDi4lrIFU8XgS_tuF_xbD1SZLw7F0o8qfA/viewform?usp=sf_link" target="_blank"><b>2.BGMI</b></a></p>
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSebZ88uIAtkeLnCBDi4lrIFU8XgS_tuF_xbD1SZLw7F0o8qfA/viewform?usp=sf_link" target="_blank"><b>3.Anime Quiz</b></a></p>
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdk72s_nzfX1Y-IEGUt8mgt1I8Xgh-MUXqPlztrcmQB7d0TQw/viewform?usp=sf_link" target="_blank"><b>4.Meme Contest</b></a></p>
-            <p><a href=" https://docs.google.com/forms/d/e/1FAIpQLSeQX2z4woEHRyFblOhrRhhfGjDXdUjb6DjSaY5q4cXMBv4ENA/viewform?usp=sf_link" target="_blank"><b>5.Photography</b></a></p>
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_VIgQx1p0_wuAO78HIgqiaZGzUdpBeBBUqQ7bi0JuIHY-8w/viewform?usp=sf_link" target="_blank"><b>6.Art</b></a></p>
-            <p><a href=" https://docs.google.com/forms/d/e/1FAIpQLSfBARbO_aAeo3kXfhaH_SGv7CgCL-IK890dm-rN2ILaIf1mmA/viewform?usp=sf_link" target="_blank"><b>7.Musical instrument</b></a></p>
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScivmzced9xLrHF_oHMDXNO-GV2gDhk3uR71dthIfm0GM-Klg/viewform?usp=sf_link" target="_blank"><b>8.Singing</b> </a></p> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3VULsWCljtreIjcy3S5y6IJw3t3FCMVbkEYa9aIbXjjrHXQ/viewform?usp=sf_link" target="_blank"><p class="p"><b>1.Connections</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSebZ88uIAtkeLnCBDi4lrIFU8XgS_tuF_xbD1SZLw7F0o8qfA/viewform?usp=sf_link" target="_blank"><p class="p"><b>2.BGMI</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSebZ88uIAtkeLnCBDi4lrIFU8XgS_tuF_xbD1SZLw7F0o8qfA/viewform?usp=sf_link" target="_blank"><p class="p"><b>3.Anime Quiz</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdk72s_nzfX1Y-IEGUt8mgt1I8Xgh-MUXqPlztrcmQB7d0TQw/viewform?usp=sf_link" target="_blank"><p class="p"><b>4.Meme Contest</b></p></a>
+            <a href=" https://docs.google.com/forms/d/e/1FAIpQLSeQX2z4woEHRyFblOhrRhhfGjDXdUjb6DjSaY5q4cXMBv4ENA/viewform?usp=sf_link" target="_blank"><p class="p"><b>5.Photography</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_VIgQx1p0_wuAO78HIgqiaZGzUdpBeBBUqQ7bi0JuIHY-8w/viewform?usp=sf_link" target="_blank"><p class="p"><b>6.Art</b></p></a>
+            <a href=" https://docs.google.com/forms/d/e/1FAIpQLSfBARbO_aAeo3kXfhaH_SGv7CgCL-IK890dm-rN2ILaIf1mmA/viewform?usp=sf_link" target="_blank"><p class="p"><b>7.Musical instrument</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScivmzced9xLrHF_oHMDXNO-GV2gDhk3uR71dthIfm0GM-Klg/viewform?usp=sf_link" target="_blank"><p class="p"><b>8.Singing</b></p></a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqfpEsCc2WB3GbviQECOwPJkkG655rM8t7cbYxq_ZlvtQ4oQ/viewform?usp=sf_link" target="_blank"><p class="p"><b>9.Treasure Hunt</b></p></a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScO8XKuQbS6F1J-B0B8M57-vSZGv8UZkVMcUe4ZI9sUrJODOg/viewform?usp=sf_link " target="_blank"><p class="p"><b>10.Dance</b></p></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScQfUbpqfKyC6y6e2S2dcG57ekD4o4ZrNoaCxT1Fl27RsjxVQ/viewform?usp=sf_link  " target="_blank"><p class="p"><b>11.Carrom</b></p></a> 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScvp4pP8sBDGVcDkIXktlSeIiXioQcGrtV4EyLJ1GhCEhpnXA/viewform?usp=sf_link" target="_blank"> <p class="p"><b>12.Chess</b></p></a> 
         </div>
         
-        <div class="block">
-            <h1 class="h3">Contact:</h1>
-            <p class="para">9363160350</p>
-            <p class="para">6380163083</p>
+         <div>
+            <h1 class="ml-5"><b>CONTACT</b></h1>
+        <p class="p1"><b>K.B. Shashwanth</b></p>
+    <p class="p1">+91 93631 60350</p>
     </div>
+    <p class="p1"><b>M. Raswanth</b></p>
+    <p class="p1">+91 63801 63083</p> 
+</div>
+</div>
     </body>
 </html>
